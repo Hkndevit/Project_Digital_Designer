@@ -1,0 +1,382 @@
+@font-face {
+    font-family:Work Sans;
+    src: url("./Fonts/WorkSans-Regular.ttf");
+}
+@font-face {
+    font-family:Didact Gothic;
+    src: url("./Fonts/DidactGothic-Regular.ttf");
+}
+@font-face {
+    font-family:Fjalla One;
+    src: url("./Fonts/FjallaOne-Regular.ttf");
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+
+
+/* WORK */
+.work {
+    text-align: center;
+    background-attachment: fixed;
+    width: 100vw;
+    min-width: 100vh;
+}
+.work p:nth-of-type(1) {
+    font-size: 20px;
+    font-family:Work Sans;
+}
+.work p:nth-of-type(2) {
+    font-size: 100px;
+    font-family:Didact Gothic;
+}
+.work p:nth-of-type(3) {
+    font-size: 160px;
+    font-family: Work Sans;
+}
+
+
+/* ORBIS */
+.orbis {
+    background-image: url("./Bilder/portfolio2.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.orbis p:nth-of-type(1) {
+    font-family: Work Sans;
+    color: #9E9E9E;
+    font-size: 20px;
+    margin-left: 150px;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.orbis p:nth-of-type(2) {
+    font-family: Didact Gothic;
+    color: rgb(255, 255, 255);
+    font-size: 112px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.orbis p:nth-of-type(3) {
+    font-family: Work Sans;
+    color: #9E9E9E;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.orbis a {
+    font-family: Fjalla One;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    width: 96px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 150px;
+    padding: 10px 12px;
+}
+
+.orbis a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+.orbis a:hover ~ p:nth-of-type(4) {
+    opacity: 1;
+}
+
+.orbis p:nth-of-type(4) {
+    font-family: Fjalla One;
+    color: #9E9E9E;
+    font-size: 200px;
+    text-align: end;
+    padding-right: 30px;
+    font-weight: bolder;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+
+
+/* ROLLR */
+.rollr {
+    background-image: url("./Bilder/rollr.png");
+    background-position: center;
+    font-family: Work Sans;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.rollr p:nth-of-type(1) {
+    font-family: Work Sans;
+    color: #666;
+    font-size: 20px;
+    margin-left: 150px;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.rollr p:nth-of-type(2) {
+    font-family: Work Sans;
+    color: rgb(0, 0, 0);
+    font-size: 112px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.rollr p:nth-of-type(3) {
+    font-family: Work Sans;
+    color: #666;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.rollr a {
+    font-family: Fjalla One;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 96px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 150px;
+    padding: 10px 12px;
+}
+.rollr a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.rollr a:hover ~ p:nth-of-type(4) {
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+.rollr p:nth-of-type(4) {
+    font-family: Fjalla One;
+    color: #666;
+    font-size: 200px;
+    text-align: end;
+    padding-right: 30px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* GALITOS */
+.galitos {
+    background-image: url("./Bilder/galitos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.galitos p:nth-of-type(1) {
+    font-family: Work Sans;
+    color: #9E9E9E;
+    font-size: 20px;
+    margin-left: 150px;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.galitos p:nth-of-type(2) {
+    font-family: Didact Gothic;
+    color: rgb(255, 255, 255);
+    font-size: 112px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.galitos p:nth-of-type(3) {
+    font-family: Work Sans;
+    color: #9E9E9E;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.galitos a {
+    font-family: Fjalla One;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    width: 96px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 150px;
+    padding: 10px 12px;
+}
+.galitos a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+.galitos a:hover ~ p:nth-of-type(4) {
+    opacity: 1;
+    color: rgb(235, 235, 235);
+}
+.galitos p:nth-of-type(4) {
+    font-family: Fjalla One;
+    color: #9E9E9E;
+    font-size: 200px;
+    text-align: end;
+    padding-right: 30px;
+    font-weight: bolder;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+
+/* TRETTO */
+.tretto {
+    background-image: url("./Bilder/tretto.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.tretto p:nth-of-type(1) {
+    font-family: Work Sans;
+    color: #666;
+    font-size: 20px;
+    margin-left: 150px;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.tretto p:nth-of-type(2) {
+    font-family: Didact Gothic;
+    color: rgb(0, 0, 0);
+    font-size: 112px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.tretto p:nth-of-type(3) {
+    font-family: Work Sans;
+    color: #666;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.tretto a {
+    font-family: Fjalla One;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 96px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 150px;
+    padding: 10px 12px;
+}
+.tretto a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.tretto a:hover ~ p:nth-of-type(4) {
+    opacity: 1;
+    color: black;
+}
+.tretto p:nth-of-type(4) {
+    font-family: Fjalla One;
+    color: #666;
+    font-size: 200px;
+    text-align: end;
+    padding-right: 30px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* WHAT MORE */
+.whatmore {
+    /* width: 100vw;
+    height: 60vh; */
+    background-color: black;
+}
+   
+.whatmore p:nth-of-type(1) {
+    font-family: Work Sans;
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+.whatmore p:nth-of-type(2) {
+    font-family: Work Sans;
+    color: #666;
+    font-size: 16px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-left: 500px;
+    margin-right: 50px;
+}
+.whatmore p:nth-of-type(3) {
+    font-family: Work Sans;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 80px;
+    margin-left: 500px;
+}
+
+
+/* LINKS */
+.links {
+    text-align: center;
+    font-size: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+.links li:nth-of-type(1) {
+    font-family: Didact Gothic;
+    margin-bottom: 100px;
+}
+.links li a:hover:nth-of-type(1) {
+    color: rgb(75, 75, 75);
+    text-decoration: underline;
+}
+.links li:nth-of-type(2) {
+    font-family: Didact Gothic;
+    margin-bottom: 100px;
+}
+.links li:nth-of-type(3) {
+    font-family: Didact Gothic;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+
+/* HERZ */
+.herz img {
+    animation: 2s infinite ease heart;
+    -webkit-animation: 2s infinite ease heart;
+  }
+
+  @keyframes heart {
+    50%{
+        transform: scale(0.3);
+    }
+  }
+
+.herz {
+    text-align: center;
+}
